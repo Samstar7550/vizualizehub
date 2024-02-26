@@ -59,7 +59,7 @@
 }
 
 .auth {
-  @apply flex-center min-h-screen w-full bg-red-100; /* Changed bg-red-100 to bg-red-100 */
+  @apply flex-center min-h-screen w-full bg-red-100;
 }
 
 .root {

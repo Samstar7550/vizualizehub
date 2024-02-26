@@ -24,11 +24,11 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         "red": {
-          100: "#F4F7FE",
-          200: "#BCB6FF",
-          400: "#868CFF",
-          500: "#7857FF",
-          600: "#d93f4e"
+          100: "#F4F7FE", 
+          200: "#BCB6FF",  
+          400: "#FF7171",  
+          500: "#FF5757",   
+          600: "#d93f4e" 
         },
         "dark": {
           400: "#97424f",  
@@ -70,7 +70,7 @@ module.exports = {
       },
       backgroundImage: {
         "red-gradient": "url('/assets/images/gradient-bg.svg')",
-        banner: "url('/assets/images/banner-bg.png')",
+        banner: "url('/assets/images/banner-bg.jpeg')",
       },
       borderRadius: {
         lg: "var(--radius)",

@@ -1,4 +1,3 @@
-
 // ====== USER PARAMS
 declare type CreateUserParams = {
     clerkId: string;
@@ -49,6 +48,7 @@ declare type CreateUserParams = {
       aspectRatio: string | undefined;
       prompt: string | undefined;
       color: string | undefined;
+      updatedAt: Date;
     };
     userId: string;
     path: string;
