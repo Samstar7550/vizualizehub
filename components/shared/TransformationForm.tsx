@@ -18,7 +18,7 @@ import { getCldImageUrl } from "next-cloudinary"
 import { addImage, updateImage } from "@/lib/actions/image.actions"
 import { useRouter } from "next/navigation"
 import { InsufficientCreditsModal } from "./InsufficientCreditsModal"
-import { toast, useToast } from "../ui/use-toast"
+import { toast } from "../ui/use-toast"
   
 
 export const formSchema = z.object({
